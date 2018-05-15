@@ -9,7 +9,18 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
-
+  <!-- <app-root id="app"></app-root> -->
+  <div id="title-bar">
+      <div id="title">Electron Angular Starter</div>
+      <div id="title-bar-btns">
+           <button id="min-btn">-</button>
+           <button id="max-btn">+</button>
+           <button id="close-btn">x</button>
+      </div>
+ </div>
+ <canvas id="canvas" width="600" height="800"></canvas>
+   
+ <script src="../game-file.js"></script>
+ <script src="../default.js"></script>
 </body>
 </html>
