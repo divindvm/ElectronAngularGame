@@ -1,6 +1,6 @@
 # AngularElectron
 
-Build a native desktop timer app with Angular and Electron 
+Build a native desktop Game with Angular, Electron and Firebase 
 
 
 - Angular v4.2
