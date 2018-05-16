@@ -13,7 +13,6 @@ function createWindow () {
   })
 
 
-  
   win.loadURL(`file://${__dirname}/dist/index.html`)
 
 
@@ -21,7 +20,6 @@ function createWindow () {
     win = null
   })
 
-  
 
 }
 
